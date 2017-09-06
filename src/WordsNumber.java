@@ -6,11 +6,11 @@ import java.lang.String;
 
 public class WordsNumber {
 
-    public static void main( String[] args ) {
+    public static void main (String[] args) {
         String sentence = "Some test string to cont number of chars";
-        String delimeter = " ";
-        String sentenseArray[] = sentence.split( delimeter );
-        System.out.print( "Number of words is : " + ( sentenseArray.length - 1 ) );
+        String delimiter = " ";
+        String sentenceArray[] = sentence.split(delimiter);
+        System.out.print("Number of words is : " + (sentenceArray.length - 1));
 
     }
 }

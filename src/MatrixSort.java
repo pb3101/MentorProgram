@@ -4,23 +4,23 @@ import java.util.Arrays;
  * Created by pavlo.balyuk on 6/19/2017.
  */
 public class MatrixSort {
-    public static void main( String[] args ) {
-        int matrix[] = {1, 6, 3, 3, 4, 5, 5, 6, 0};
-        System.out.print( "Массив після сортування: " + "\n" );
-        int arr[] = MatrixSort.removeDuplicates( matrix );
+    public static void main (String[] args) {
+        int matrix[] = { 1, 6, 3, 3, 4, 5, 5, 6, 0 };
+        System.out.print("Массив після сортування: " + "\n");
+        int arr[] = MatrixSort.removeDuplicates(matrix);
         for (int i = 0; i < arr.length; i++) {
-            System.out.print( arr[i] );
+            System.out.print(arr[i]);
         }
-        System.out.println( "\n" );
-        int[] srt = MatrixSort.sort( matrix );
-        System.out.print( "Массив після сортування: " + "\n" );
+        System.out.println("\n");
+        int[] srt = MatrixSort.sort(matrix);
+        System.out.print("Массив після сортування: " + "\n");
         for (int i = 0; i < srt.length; i++) {
-            System.out.print( srt[i] );
+            System.out.print(srt[i]);
         }
-        System.out.println( "\n" );
+        System.out.println("\n");
     }
 
-    public static int[] removeDuplicates( int[] matrix ) {
+    public static int[] removeDuplicates (int[] matrix) {
         boolean mask[] = new boolean[matrix.length];
         int removeCount = 0;
 
@@ -47,9 +47,9 @@ public class MatrixSort {
         return result;
     }
 
-    public static int[] sort( int[] matrix ) {
-        int[] matrix1 = MatrixSort.removeDuplicates( matrix );
-        Arrays.sort( matrix1 );
+    public static int[] sort (int[] matrix) {
+        int[] matrix1 = MatrixSort.removeDuplicates(matrix);
+        Arrays.sort(matrix1);
         return matrix1;
     }
 }

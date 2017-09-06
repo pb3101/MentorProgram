@@ -8,51 +8,51 @@ public class Car {
     int wheels;
     boolean motor;
 
-    Car( ) {
-        gas = setGas( );
-        if ( ( 0.2 < gas ) || ( gas > 2.0 ) ) {
-            System.out.print( "Need to Gas Station! " );
+    Car () {
+        gas = setGas();
+        if ( (0.2 < gas) || (gas > 2.0) ) {
+            System.out.print("Need to Gas Station! ");
         }
     }
 
-    Car( int wheelsInput ) {
+    Car (int wheelsInput) {
         wheels = wheelsInput;
-        if ( ( wheels != 4 ) && ( ( 0.2 < gas ) || ( gas > 2.0 ) ) ) {
-            System.out.print( "Someone steal wheels from your car and your Gas too" );
+        if ( (wheels != 4) && ((0.2 < gas) || (gas > 2.0)) ) {
+            System.out.print("Someone steal wheels from your car and your Gas too");
         }
     }
 
-    Car( int wheelsInput, boolean motorInput ) {
+    Car (int wheelsInput, boolean motorInput) {
         wheels = wheelsInput;
-        gas = setGas( );
+        gas = setGas();
         motor = motorInput;
-        if ( ( wheels != 4 ) && ( ( 0.2 < gas ) || ( gas > 2.0 ) ) && ( motor != true ) ) {
-            System.out.print( "Your's worst day ever! No Gas! No Wheels! No Motor!" );
+        if ( (wheels != 4) && ((0.2 < gas) || (gas > 2.0)) && (motor != true) ) {
+            System.out.print("Your's worst day ever! No Gas! No Wheels! No Motor!");
         }
     }
 
-    public double setGas( ) {
-        return gas = new Random( ).nextDouble( );
+    public double setGas () {
+        return gas = new Random().nextDouble();
     }
 
-    public int setWheels( int wheelsInput ) {
+    public int setWheels (int wheelsInput) {
         return wheels = wheelsInput;
     }
 
-    public boolean setMotor( boolean motorInput ) {
+    public boolean setMotor (boolean motorInput) {
         motor = motorInput;
         return motor;
     }
 
-    public double getGas( ) {
+    public double getGas () {
         return gas;
     }
 
-    public int getWheels( ) {
+    public int getWheels () {
         return wheels;
     }
 
-    public boolean getMotor( ) {
+    public boolean getMotor () {
         return motor;
     }
 }
