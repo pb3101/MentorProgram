@@ -5,12 +5,14 @@ public class MinFind {
     public static void main (String[] args) {
         double[][] s = { { 5.0, 9.0, 3.0, 2.0, 0.0, 4.0, 8.3, 3.0, -9.0 }, { 2, 5, 2, 1, 6, 5, 1, 2, -9 } };
         double ave = 0;
+
         for (int i = 0; i < s.length; i++)
             for (int j = 0; j < s[i].length; j++) {
                 ave += s[i][j];
             }
         double average = ave / s.length;
         double min = s[0][0];
+
         for (int i = 0; i < s.length; i++)
             for (int j = 0; j < s[i].length; j++) {
                 if ( s[i][j] < min ) {
@@ -19,6 +21,7 @@ public class MinFind {
             }
         int x = 0;
         int z = 0;
+
         for (int i = 0; i < s.length; i++) {
             for (int j = 0; j < s[i].length; j++) {
                 if ( s[i][j] == min ) {
@@ -27,6 +30,7 @@ public class MinFind {
                 }
             }
         }
+
         s[x][z] = average; /**Something wrong with for loop or assign average to specific indexed position into matrix*/
         for (int i = 0; i < s.length; i++)
             for (int j = 0; j < s[i].length; j++) {
