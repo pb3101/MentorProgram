@@ -20,9 +20,9 @@ public class MatrixSortHashSet {
         //Convert HashSet into list to sort elements and convert again into HashSet
         List<Integer> matrix1 = new ArrayList<Integer>( matrix );
         Collections.sort( matrix1 );
-        matrix.clear();
+        matrix.clear( );
         matrix = new LinkedHashSet( matrix1 );
         //Can be used new HashSet to save structure of old one
-        System.out.print( "Sorted HashSet to control changes:" + "\n" + matrix + "\n"  );
+        System.out.print( "Sorted HashSet to control changes:" + "\n" + matrix + "\n" );
     }
 }

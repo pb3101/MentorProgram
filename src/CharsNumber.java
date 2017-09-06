@@ -17,7 +17,7 @@ public class CharsNumber {
         char temp;
        /* char delim = ' ';*/
         size = newSentense.length();
-        /**One more loop needed to go throw delimeter.*/
+        /**One more loop needed to go throw delimiter*/
         for (int i = 0; i < size; i++){
             temp = newSentense.charAt(i);
             if (temp != ' ')
