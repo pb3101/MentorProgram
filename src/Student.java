@@ -8,7 +8,6 @@ public class Student {
     String name;
     String surname;
     int age;
-
     Student (String nameInput, String surnameInput) {
         name = nameInput;
         surname = surnameInput;
@@ -21,7 +20,16 @@ public class Student {
         age = ageInput;
     }
 
+    public String setName (String nameInput) {
+        return name = nameInput;
+    }
     public String getName () {
+        return name;
+    }
+    public String setSurname (String surnameInput) {
+        return name = surnameInput;
+    }
+    public String getSurname () {
         return name;
     }
 
