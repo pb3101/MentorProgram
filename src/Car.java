@@ -17,7 +17,7 @@ public class Car {
 
     Car( int wheelsInput ) {
         wheels = wheelsInput;
-        if (( wheels != 4 )&&( ( 0.2 < gas ) || ( gas > 2.0 ) )) {
+        if ( ( wheels != 4 ) && ( ( 0.2 < gas ) || ( gas > 2.0 ) ) ) {
             System.out.print( "Someone steal wheels from your car and your Gas too" );
         }
     }

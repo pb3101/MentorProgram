@@ -15,7 +15,6 @@ public class Calc {
         System.out.println("Enter first element");
         Double a = Double.parseDouble(operation_input.next());
 
-
         System.out.println("Enter second element");
         Double b = Double.parseDouble(operation_input.next());
 
