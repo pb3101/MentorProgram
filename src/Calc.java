@@ -5,7 +5,7 @@ import java.util.Scanner;
  */
 public class Calc {
 
-    public static void main(String[] args){
+    public static void main (String[] args) {
         Scanner operation_input = new Scanner(System.in);
         String operation;
         System.out.println("Enter required operation name: add, subtratc, multiply, divide");
@@ -18,49 +18,48 @@ public class Calc {
         System.out.println("Enter second element");
         Double b = Double.parseDouble(operation_input.next());
 
-        switch (operation)
-        {
-            case ("add"): Calc.add(a,b);
+        switch (operation) {
+            case ("add"):
+                Calc.add(a, b);
                 System.out.println(res);
                 break;
 
-            case ("subtract"): Calc.subtract(a,b);
+            case ("subtract"):
+                Calc.subtract(a, b);
                 System.out.println(res);
                 break;
 
-            case ("multiply"): Calc.multiply(a,b);
+            case ("multiply"):
+                Calc.multiply(a, b);
                 System.out.println(res);
                 break;
 
-            case ("divide"): Calc.divide(a,b);
+            case ("divide"):
+                Calc.divide(a, b);
                 System.out.println(res);
                 break;
         }
     }
 
-    static  double res;
+    static double res;
 
-    public static double add(double a, double b)
-    {
-            res = a + b;
-            return res;
+    public static double add (double a, double b) {
+        res = a + b;
+        return res;
     }
 
-    public static double subtract(double a, double b)
-    {
-            res = a - b;
-            return res;
+    public static double subtract (double a, double b) {
+        res = a - b;
+        return res;
     }
 
-    public static double multiply(double a, double b)
-    {
-            res = a * b;
-            return res;
+    public static double multiply (double a, double b) {
+        res = a * b;
+        return res;
     }
 
-    public static double divide(double a, double b)
-    {
-            res = a / b;
-            return res;
+    public static double divide (double a, double b) {
+        res = a / b;
+        return res;
     }
 }

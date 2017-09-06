@@ -5,13 +5,13 @@ import java.util.Scanner;
  */
 public class NameX {
 
-    public static void main( String[] args ) {
-        Scanner in = new Scanner( System.in );
-        System.out.println( "Enter value" );
-        int x = in.nextInt( );
+    public static void main (String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter value");
+        int x = in.nextInt();
         String name = "Pavlo";
         for (int i = 0; i < x; i++) {
-            System.out.println( '"' + name + '"' );
+            System.out.println('"' + name + '"');
         }
 
     }

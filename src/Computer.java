@@ -6,34 +6,34 @@ public class Computer {
     int ram;
     double hdd;
 
-    Computer( int ramInput ) {
+    Computer (int ramInput) {
         ram = ramInput;
     }
 
-    Computer( String procTypeInput, double hddInput ) {
+    Computer (String procTypeInput, double hddInput) {
         procType = procTypeInput;
         hdd = hddInput;
     }
 
-    Computer( String procTypeInput, int ramInput, double hddInput ) {
+    Computer (String procTypeInput, int ramInput, double hddInput) {
         procType = procTypeInput;
         ram = ramInput;
         hdd = hddInput;
     }
 
-    public String getProcType( ) {
+    public String getProcType () {
         return procType;
     }
 
-    public double getHdd( ) {
+    public double getHdd () {
         return hdd;
     }
 
-    public int getRam( ) {
+    public int getRam () {
         return ram;
     }
 
-    public int setRam( int ramInput ) {
+    public int setRam (int ramInput) {
         return ram = ramInput;
     }
 }
