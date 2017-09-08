@@ -9,18 +9,15 @@ public class StudentImproved {
     String surname;
     int age;
 
-    /**Task 5.5.a Automation testing course here*/
+    /**Task 5.6.a Automation testing course here*/
     public String toString(){
-        return new StudentImproved().getName() + new StudentImproved().getSurname()+  "@" + Integer.toHexString(hashCode());
+        return this.getName() + this.getSurname()+  "@" + Integer.toHexString(hashCode());
     }
-    /**Task 5.5.a Automation testing course here*/
+    /**Task 5.6.a Automation testing course here*/
 
     /**Task 5.4.b Automation testing course here*/
     boolean equals(StudentImproved student) {
-        if ( student.name.equals(student.name) ){
-            return true;
-        }
-        return false;
+        return student.name.equals(student.name);
     }
     /**Task 5.4.b Automation testing course here*/
 

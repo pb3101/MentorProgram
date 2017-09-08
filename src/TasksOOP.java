@@ -40,11 +40,11 @@ public class TasksOOP {
         student2.setName("Sam");
         out.println(student1.equals(student2));
 /**Task 5.4.a Automation testing course here*/
-/**Task 5.5.b Automation testing course here*/
+/**Task 5.6.b Automation testing course here*/
         StudentImproved student = new StudentImproved();
         student.setName("Miguel");
         student.setSurname("Garcia");
-        out.println(student);
-/**Task 5.5.b Automation testing course here*/
+        out.println(student.toString());
+/**Task 5.6.b Automation testing course here*/
     }
 }
