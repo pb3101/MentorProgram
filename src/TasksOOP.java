@@ -24,14 +24,12 @@ public class TasksOOP {
         masterStudent.finishStudy();
         masterStudent.getScore();
         masterStudent.graduate();
-
-        /**probably to take out to separate class*/
     /** Task 5.2.c Automation testing course here */
 
 /**Task 5.3 Automation testing course here*/
-        StudentImproved student1 = new StudentImproved();
-        student1.setName("Ivan");
-        StudentImproved student2 = student1;
+        StudentImproved student1 = new StudentImproved("Ivan");
+        StudentImproved student2 = new StudentImproved(student1); //used copy constructor to copy properties from stundent1 to student 2
+        //StudentImproved student2 = student1; (share resources with both objects. eg student1 and student2)
         student2.name = "Petro";
         out.println(student1.name + "   " + student2.name);
 /**Task 5.3 Automation testing course here*/
@@ -40,10 +38,17 @@ public class TasksOOP {
         student2.setName("Sam");
         out.println(student1.equals(student2));
 /**Task 5.4.a Automation testing course here*/
+/**Task 5.5.c and 5.5.d Automation testing course here*/
+        StudentImproved student55a = new StudentImproved("Samuel");
+        StudentImproved student55b = new StudentImproved(student55a);
+        PhdStudent phdStudent1 = new PhdStudent(/*"Name", "Surname"*/phdStudent);
+        out.println(phdStudent1);
+/**Task 5.5.c and 5.5.d Automation testing course here*/
 /**Task 5.6.b Automation testing course here*/
         StudentImproved student = new StudentImproved();
         student.setName("Miguel");
         student.setSurname("Garcia");
+        out.println(student);
         out.println(student.toString());
 /**Task 5.6.b Automation testing course here*/
     }
