@@ -1,4 +1,4 @@
-package Tasks3; /**
+package Tasks1; /**
  * Created by pavlo.balyuk on 6/9/2017.
  */
 
@@ -16,8 +16,9 @@ public class CharsNumber {
         int size = 0;
         int charCount = 0;
         char temp;
-       /* char delim = ' ';*/
+        char delim = ' ';
         size = newSentense.length();
+
         /**One more loop needed to go throw delimiter*/
         for (int i = 0; i < size; i++) {
             temp = newSentense.charAt(i);

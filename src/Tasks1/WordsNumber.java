@@ -1,4 +1,4 @@
-package Tasks3; /**
+package Tasks1; /**
  * Created by pavlo.balyuk on 6/9/2017.
  */
 

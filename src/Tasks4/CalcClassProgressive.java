@@ -1,22 +1,19 @@
-package Calculator;
+package Tasks4;
 
 import java.util.Scanner;
-import java.lang.Exception;
 
 /**
  * Created by pavlo.balyuk on 6/22/2017.
  */
 public class CalcClassProgressive {
 
-    public static void main (String[] agrs) throws Exception {
+    public static void main (String[] args){
         Calculator res = new Calculator();
         res.results();
     }
 
     public static class Calculator {
-        double res;
-
-        public void results () throws Exception {
+        public void results () {
             Scanner operation_input = new Scanner(System.in);
             String operation;
             System.out.println("Enter required operation name: add, subtratc, multiply, divide");
@@ -32,44 +29,36 @@ public class CalcClassProgressive {
 
             switch (operation) {
                 case ("+"):
-                    add(a, b);
-                    System.out.println(res);
+                    System.out.println(add(a, b));
                     break;
 
                 case ("-"):
-                    subtract(a, b);
-                    System.out.println(res);
+                    System.out.println(subtract(a, b));
                     break;
 
                 case ("*"):
-                    multiply(a, b);
-                    System.out.println(res);
+                    System.out.println( multiply(a, b));
                     break;
 
                 case ("/"):
-                    divide(a, b);
-                    System.out.println(res);
+                    System.out.println(divide(a, b));
                     break;
             }
         }
 
-
         public double add (double a, double b) {
-            res = a + b;
-            return res;
+            return a + b;
         }
 
         public double subtract (double a, double b) {
-            res = a - b;
-            return res;
+            return a - b;
         }
 
         public double multiply (double a, double b) {
-            res = a * b;
-            return res;
+            return a * b;
         }
 
-        public static double divide (double a, double b) throws Exception {
+        public static double divide (double a, double b) {
             return a / b;
         }
     }
