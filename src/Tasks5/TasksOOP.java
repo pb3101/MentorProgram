@@ -9,7 +9,9 @@ import static java.lang.System.out;
  * Created by pavlo.balyuk on 9/6/2017.
  */
 public class TasksOOP {
-    /** Task 5.2.c Automation testing course here */
+    /**
+     * Task 5.2.c Automation testing course here
+     */
     public static void main(String args[]) {
         /*Tasks5.StudentImproved student3 = new Tasks5.PhdStudent("Petro","Petrenko");
         student3.graduate();
@@ -34,7 +36,7 @@ public class TasksOOP {
         masterStudent.finishStudy();
         masterStudent.getScore();
         masterStudent.graduate();
-    /** Task 5.2.c Automation testing course here */
+        /** Task 5.2.c Automation testing course here */
 
 /**Task 5.3 Automation testing course here*/
         StudentImproved student1 = new StudentImproved("Ivan");
@@ -65,8 +67,10 @@ public class TasksOOP {
 /**Task 5.6.b Automation testing course here*/
         IChillable chillable = student1;
         chillable = phdStudent;
-        chillable.playGames();
+        chillable.playGames(4);
+        chillable.drinkBeer(4);
         IWorkable workable = masterStudent;
-        workable.work();
+        workable.work(8);
+        workable.getPaid(100);
     }
 }

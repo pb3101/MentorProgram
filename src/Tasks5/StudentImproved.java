@@ -75,13 +75,15 @@ public class StudentImproved implements IChillable{
     public String getSurname() {
         return surname;
     }
+
+
     @Override
-    public void drinkBeer() {
+    public void drinkBeer(int liters) {
 
     }
 
     @Override
-    public void playGames() {
+    public void playGames(int hours) {
 
     }
 }

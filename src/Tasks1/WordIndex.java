@@ -1,19 +1,13 @@
 package Tasks1;
-import static java.lang.System.out;
 
 /**
- * Created by pavlo.balyuk on 9/13/2017.
+ * Created by pavlo.balyuk on 9/13/2017. Task 1.4. Divide the same example to function: 1st parameter - text, second parameter: word index
  */
 public class WordIndex {
-    public static void main(String[] args) {
-        String sentence = "Some test string to cont number of chars";
-        int i =2;
-        WordIndex(sentence,i);
-    }
-
-    public static void WordIndex(String sentence, int i) {
+    private static String getWordIndex(String sentence, int i) {
         String delimiter = " ";
         String sentenceArray[] = sentence.split(delimiter);
-        out.print(i + " "+ sentenceArray[i]);
+        int charCount = sentenceArray[i-1].length();
+        return ("Number of chars in word '" +  sentenceArray[i-1] + "' " + "with index '" + String.valueOf(i) + "' is '" + charCount + "' \n");
     }
 }

@@ -25,12 +25,22 @@ public class PhdStudent extends StudentImproved implements IWorkable {
     }
 
     @Override
-    public void work() {
+    public void work(int hours) {
 
     }
 
     @Override
-    public void getPaid() {
+    public void getPaid(double money) {
+
+    }
+
+    @Override
+    public void drinkBeer(int liters) {
+
+    }
+
+    @Override
+    public void playGames(int hours) {
 
     }
 }
