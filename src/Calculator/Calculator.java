@@ -6,7 +6,7 @@ import static java.lang.System.*;
  * Created by pavlo.balyuk on 9/4/2017.
  */
 class Calculator {
-    public static void main (String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         //Class saves all calculator inputs except 'do {} while()' loop breaker
         CalcInput input = new CalcInput();
         //Class saves all calculator methods
@@ -17,7 +17,7 @@ class Calculator {
             action = new CalcInput().inputOperation();
 
             try {
-                if ( "q".equalsIgnoreCase(action) ) {
+                if ("q".equalsIgnoreCase(action)) {
                     break;
                 }
                 double v1 = input.inputValue1();
