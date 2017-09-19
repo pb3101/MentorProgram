@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by pavlo.balyuk on 9/4/2017.
  */
-public class CalcInput {
+class CalcInput {
     private LinkedHashSet actions () {
         LinkedHashSet actions = new LinkedHashSet();
         actions.add("+");
@@ -18,12 +18,12 @@ public class CalcInput {
         return actions;
     }
 
-    public Scanner scanner () {
+    private Scanner scanner () {
         Scanner inputs = new Scanner(System.in);
         return inputs;
     }
 
-    public String inputOperation () throws IllegalArgumentException {
+    protected String inputOperation() throws IllegalArgumentException {
         int attempts = 3;
         while (attempts-- >= 0) {
 
@@ -38,7 +38,7 @@ public class CalcInput {
         throw new IllegalArgumentException("Attempts to enter valid operations failed");
     }
 
-    public double inputValue1 () throws NumberFormatException {
+    protected double inputValue1 () throws NumberFormatException {
         int attempts = 3;
         while (attempts-- >= 0) {
 
@@ -53,7 +53,7 @@ public class CalcInput {
         throw new NumberFormatException("Attempts to enter valid element ends ");
     }
 
-    public double inputValue2 () throws NumberFormatException {
+    protected double inputValue2 () throws NumberFormatException {
         int attempts = 3;
         while (attempts-- >= 0) {
 

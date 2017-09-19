@@ -5,7 +5,7 @@ import static java.lang.System.*;
 /**
  * Created by pavlo.balyuk on 9/4/2017.
  */
-public class Calculator {
+class Calculator {
     public static void main (String[] args) throws Exception {
         //Class saves all calculator inputs except 'do {} while()' loop breaker
         CalcInput input = new CalcInput();
