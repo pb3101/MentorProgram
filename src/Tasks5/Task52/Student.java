@@ -7,8 +7,8 @@ import static java.lang.System.out;
  */
 class Student {
 
-    private String name;
-    private String surname;
+    protected String name;
+    protected String surname;
 
     protected Student() {
     }

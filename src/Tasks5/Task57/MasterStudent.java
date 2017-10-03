@@ -25,8 +25,9 @@ public class MasterStudent extends Student implements IWorkable {
     }
 
     @Override
-    public void playGames(int hours) {
+    public void playGames(final int hours) {
         out.print("MasterStudent student played games for " + hours + "\n");
     }
+
 }
 

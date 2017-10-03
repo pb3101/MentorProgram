@@ -27,4 +27,7 @@ class Student {
     protected String getSurname() {
         return surname;
     }
+
+    public final void doSMTN() {
+    }
 }

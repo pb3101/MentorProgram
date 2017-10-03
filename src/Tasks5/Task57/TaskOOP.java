@@ -19,4 +19,5 @@ public class TaskOOP {
         student.drinkBeer(5);
         student.playGames(5);
     }
+
 }
