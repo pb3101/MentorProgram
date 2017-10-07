@@ -4,7 +4,7 @@ package Tasks6.Task62;
  * Created by pavlo.balyuk on 10/3/2017. Task 6.2. Implement Builder for Main object with fields: to(string), cc(string),
  * subject(string), body(string), priority(int), attachment(boolean: true/false)
  */
-public class Email {
+ class Email {
 
     private String to;
     private String cc;

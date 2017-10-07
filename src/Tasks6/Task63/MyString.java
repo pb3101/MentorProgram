@@ -8,7 +8,7 @@ import static java.lang.System.*;
  * Note:
  * Add constructor for String parameter and implement function: capitalyzeSymbols() which makes all symbols capital, e.g. food ->FOOD. In main function call this function to show it works.
  */
-public class MyString {
+class MyString {
 
         public static void main(String... aArgs){
             TransformText transformer = new BaseWrapper(new Echo());
