@@ -1,6 +1,4 @@
-package Tasks6.Task631;
-
-import Interfaces.IMyString;
+package Tasks6.Task63;
 
 /**
  * Created by pavlo.balyuk on 10/3/2017.
@@ -12,7 +10,7 @@ class MyStringWrapper implements IMyString{
 
     String upperCaseText;
     @Override
-    public String capitalyzeSymbols(String lowerCaseText) {
+    public String capitalizeSymbols(String lowerCaseText) {
         upperCaseText = lowerCaseText.toUpperCase();
         return upperCaseText;
     }

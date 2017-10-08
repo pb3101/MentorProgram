@@ -1,8 +1,7 @@
-package Interfaces;
+package Patterns.MyDecorator;
 
 /**
  * Created by pavlo.balyuk on 10/3/2017.
- */
-public interface IMyString {
+ */interface IMyString {
     String capitalyzeSymbols(String inputText);
 }

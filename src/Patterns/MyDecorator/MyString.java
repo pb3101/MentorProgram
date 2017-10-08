@@ -1,6 +1,4 @@
-package Tasks6.Task632;
-
-import Interfaces.IMyString;
+package Patterns.MyDecorator;
 
 /**
  * Created by pavlo.balyuk on 10/7/2017.
@@ -8,10 +6,10 @@ import Interfaces.IMyString;
 class MyString implements IMyString {
 
     IMyString iMyString;
-
-    public MyString() {
-
-    }
+//
+//    public MyString() {
+//
+//    }
 
     public MyString(IMyString iMyString) {
         this.iMyString = iMyString;

@@ -1,5 +1,4 @@
-package Tasks6.Task63;
-import Interfaces.TransformText;
+package Patterns.Decorator;
 import static java.lang.System.*;
 
 /**
