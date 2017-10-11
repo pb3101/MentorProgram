@@ -6,7 +6,7 @@ import java.util.*;
 import java.lang.*;
 
 
-public class CharsNumber {
+class CharsNumber {
     public static void main (String[] args) {
 
         Scanner input = new Scanner(System.in);

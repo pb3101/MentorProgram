@@ -9,7 +9,7 @@ import static java.lang.System.out;
  * Created by pavlo.balyuk on 9/13/2017.
  * Implement application to work with a list. In the 1st half of the list replace all elements E1 with E2
  */
-public class ListReplace {
+class ListReplace {
     public static void main(String[] args) {
         List<String> arrayList = new ArrayList<>();
         arrayList.add("a");

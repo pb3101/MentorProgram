@@ -4,7 +4,7 @@ package Tasks1; /**
 
 import java.util.Scanner;
 
-public class SimpleCalc {
+class SimpleCalc {
     public static void main (String[] arg) {
         Scanner operation_input = new Scanner(System.in);
         String operation;

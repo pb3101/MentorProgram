@@ -4,7 +4,7 @@ package Tasks1; /**
 
 import java.lang.String;
 
-public class WordsNumber {
+class WordsNumber {
 
     public static void main (String[] args) {
         String sentence = "Some test string to cont number of chars";

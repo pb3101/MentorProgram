@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Created by pavlo.balyuk on 8/29/2017.
  */
-public class Student {
+class Student {
 
     String name;
     String surname;

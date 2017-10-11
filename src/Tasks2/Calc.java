@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Павлик&Иришка on 14.06.2017.
  */
-public class Calc {
+class Calc {
 
     public static void main (String[] args) {
         Scanner operation_input = new Scanner(System.in);

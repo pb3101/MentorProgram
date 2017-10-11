@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by pavlo.balyuk on 8/29/2017.
  */
-public class MatrixSortCollection {
+class MatrixSortCollection {
     public static void main (String[] args) {
         List<Integer> matrix = new ArrayList<>();
         List<Integer> matrix1 = new ArrayList<>();

@@ -4,7 +4,7 @@ package Tasks2;
  * Created by Павлик&Иришка on 14.06.2017.
  */
 
-public class MaxFind {
+class MaxFind {
 
     public static void main (String[] args) {
         double[] s = { 5, 9, 3, 2, 0, -4, -8.3, 3, -4 };

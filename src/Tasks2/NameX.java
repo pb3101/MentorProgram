@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Павлик&Иришка on 14.06.2017.
  */
-public class NameX {
+class NameX {
 
     public static void main (String[] args) {
         Scanner in = new Scanner(System.in);

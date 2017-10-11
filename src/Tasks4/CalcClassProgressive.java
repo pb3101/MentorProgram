@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by pavlo.balyuk on 6/22/2017.
  */
-public class CalcClassProgressive {
+class CalcClassProgressive {
 
     public static void main (String[] args){
         Calculator res = new Calculator();

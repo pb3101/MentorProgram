@@ -3,7 +3,7 @@ package Tasks3;
 /**
  * Created by pavlo.balyuk on 6/22/2017.
  */
-public class MinFind {
+class MinFind {
     public static void main (String[] args) {
         double[][] s = { { 5.0, 9.0, 3.0, 2.0, 0.0, 4.0, 8.3, 3.0, -9.0 }, { 2, 5, 2, 1, 6, 5, 1, 2, -9 } };
         double ave = 0;

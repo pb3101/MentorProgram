@@ -3,7 +3,7 @@ package Tasks1;
 /**
  * Created by pavlo.balyuk on 9/13/2017. Task 1.4. Divide the same example to function: 1st parameter - text, second parameter: word index
  */
-public class WordIndex {
+class WordIndex {
     private static String getWordIndex(String sentence, int i) {
         String delimiter = " ";
         String sentenceArray[] = sentence.split(delimiter);

@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Created by pavlo.balyuk on 9/5/2017.
  */
-public class Car {
+class Car {
     double gas;
     int wheels;
     boolean motor;

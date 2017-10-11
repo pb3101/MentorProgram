@@ -3,7 +3,7 @@ package Tasks4;
 /**
  * Created by pavlo.balyuk on 8/29/2017.
  */
-public class Constructors {
+class Constructors {
     public static void main (String[] args) {
         String s = ", ";
         Student student = new Student("Vasya", "Pupkin");

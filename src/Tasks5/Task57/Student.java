@@ -7,7 +7,7 @@ import static java.lang.System.out;
 /**
  * Created by pavlo.balyuk on 9/19/2017.
  */
-public class Student implements IChillable {
+class Student implements IChillable {
     @Override
     public void drinkBeer(int liters) {
         out.print("Student student drink for " + liters + "\n");

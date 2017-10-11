@@ -5,7 +5,7 @@ package Tasks3; /**
 import java.util.Scanner;
 
 
-public class MatrixOfInts {
+class MatrixOfInts {
     public static void main (String[] args) {
         int data[][] = MatrixOfInts.fill();
         System.out.println("ВВедена матриця: " + "\n");

@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by pavlo.balyuk on 9/4/2017.
  */
-public class MatrixSortHashSetImproved {
+class MatrixSortHashSetImproved {
     public static void main (String[] args) {
         List<Integer> matrix = new ArrayList();
         matrix.add(1);

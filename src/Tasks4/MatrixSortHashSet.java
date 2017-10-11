@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by pavlo.balyuk on 9/4/2017.
  */
-public class MatrixSortHashSet {
+class MatrixSortHashSet {
     public static void main (String[] args) {
         LinkedHashSet matrix = new LinkedHashSet();
         matrix.add(1);

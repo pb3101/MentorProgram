@@ -3,7 +3,7 @@ package Tasks2;
 /**
  * Created by Павлик&Иришка on 14.06.2017.
  */
-public class Reverse {
+class Reverse {
 
     public static void main (String args[]) {
         double[] old = { 5, 9, 3, 2, 0, -4, -8.3, 3, -4 };

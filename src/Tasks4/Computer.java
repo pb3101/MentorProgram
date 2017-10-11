@@ -3,7 +3,7 @@ package Tasks4;
 /**
  * Created by pavlo.balyuk on 8/29/2017.
  */
-public class Computer {
+class Computer {
     String procType;
     int ram;
     double hdd;

@@ -4,7 +4,7 @@ package Tasks4;
  * Created by pavlo.balyuk on 6/19/2017.
  */
 
-public class ReplaceValues {
+class ReplaceValues {
 
     public static void main (String[] args) {
 

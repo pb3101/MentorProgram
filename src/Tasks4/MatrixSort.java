@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by pavlo.balyuk on 6/19/2017.
  */
-public class MatrixSort {
+class MatrixSort {
     public static void main (String[] args) {
         int matrix[] = { 1, 6, 3, 3, 4, 5, 5, 6, 0 };
         System.out.print("Массив після сортування: " + "\n");

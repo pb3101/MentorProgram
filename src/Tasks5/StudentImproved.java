@@ -7,7 +7,7 @@ import static java.lang.System.out;
 /**
  * Created by pavlo.balyuk on 9/6/2017.  From task 5.1 Automation testing course
  */
-public class StudentImproved implements IChillable{
+class StudentImproved implements IChillable{
 
     String name;
     String surname;

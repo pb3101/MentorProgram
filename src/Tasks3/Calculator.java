@@ -5,7 +5,7 @@ import static java.lang.System.*;
 /**
  * Created by pavlo.balyuk on 9/13/2017.
  */
-public class Calculator {
+class Calculator {
     void results() {
         Scanner operation_input = new Scanner(in);
         String operation;
