@@ -1,6 +1,7 @@
 package Tasks7.Tasks72;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Random;
 
 
 /**
@@ -10,6 +11,8 @@ class Student {
     private String name;
     private String surname;
     private String dateOfCreation;
+    Random random = new Random();
+    int randomStudent = random.nextInt(1) + 10;
 
     @Override
     public String toString() {
@@ -19,9 +22,6 @@ class Student {
                 ", dateOfCreation='" + dateOfCreation + '\'' +
                 '}';
     }
-
-    SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-
 
     protected String getName() {
         return name;
@@ -45,8 +45,8 @@ class Student {
         private  Builder() {
         }
 
-        Builder setName(String nameInput) {
-            Student.this.name = nameInput;
+        Builder setName() {
+            Student.this.name = new StringBuilder().append("Student").append(randomStudent).toString();
             return this;
         }
 

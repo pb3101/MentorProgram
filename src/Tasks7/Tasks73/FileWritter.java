@@ -34,7 +34,7 @@ class FileWritter {
 
         Student[] students = {stud1, stud2, stud3};
 
-        mapper.writeValue(new File("students.json"), students);
+        mapper.writeValue(new File("studentsEnum.json"), students);
 
     }
 }

@@ -8,19 +8,19 @@ public class Main {
     public static void main(String args[]) {
 
         Student stud1 = Student.newBuilder()
-                .setName("Ivan")
+                .setName()
                 .setSurname("Ivanov")
                 .setDateOfCreation()
                 .build();
 
         Student stud2 = Student.newBuilder()
-                .setName("Petro")
+                .setName()
                 .setSurname("Petrov")
                 .setDateOfCreation()
                 .build();
 
         Student stud3 = Student.newBuilder()
-                .setName("Vasul")
+                .setName()
                 .setSurname("Vasuliev")
                 .setDateOfCreation()
                 .build();

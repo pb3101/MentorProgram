@@ -17,6 +17,7 @@ class FileReader {
         ObjectMapper mapper = new ObjectMapper();
         mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY); // needed for handling exceptions on visibility of elements inside a class
 //        mapper.configure(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY,true);
+//        Student[] student;
 //        StudentEnum.student = mapper.readValue(new File("studentsEnum.json"), Student[].class);
         List<Student> students = Arrays.asList(
                 mapper.readValue(new File("studentsEnum.json"), Student[].class)
