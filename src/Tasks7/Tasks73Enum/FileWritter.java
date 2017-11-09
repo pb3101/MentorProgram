@@ -1,14 +1,16 @@
-package Tasks7.Tasks73;
-import com.fasterxml.jackson.annotation.*;
-import com.fasterxml.jackson.databind.*;
-import java.io.*;
+package Tasks7.Tasks73Enum;
 
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.PropertyAccessor;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.File;
+import java.io.IOException;
 
 /**
- * Created by pavlo.balyuk on 10/10/2017.
+ * Created by pavlo.balyuk on 10/24/2017.
  */
-class FileWritter {
+public class FileWritter {
     public static void main(String args[]) throws IOException, InterruptedException {
 
         ObjectMapper mapper = new ObjectMapper();
@@ -18,6 +20,7 @@ class FileWritter {
                 .setName("Ivan")
                 .setSurname("Ivanov")
                 .setDateOfCreation()
+                .setGender(Gender.Man)
                 .build();
 
         Thread.sleep(1000);
@@ -26,6 +29,7 @@ class FileWritter {
                 .setName("Petro")
                 .setSurname("Petrov")
                 .setDateOfCreation()
+                .setGender(Gender.Man)
                 .build();
 
         Thread.sleep(1000);
@@ -34,6 +38,7 @@ class FileWritter {
                 .setName("Vasul")
                 .setSurname("Vasuliev")
                 .setDateOfCreation()
+                .setGender(Gender.Man)
                 .build();
 
         Student[] students = {stud1, stud2, stud3};

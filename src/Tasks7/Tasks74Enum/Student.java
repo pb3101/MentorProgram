@@ -1,47 +1,72 @@
 package Tasks7.Tasks74Enum;
 
-import java.util.Arrays;
-import java.util.List;
+import java.util.Date;
 
 /**
  * Created by pavlo.balyuk on 10/10/2017.
  */
-public class Student {
+class Student {
     private String name;
     private String surname;
+    private Gender gender;
     private String dateOfCreation;
-    
-    public Student() {
-        List<Student> students = Arrays.asList();
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "gender='" + gender + '\'' +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", dateOfCreation='" + dateOfCreation + '\'' +
+                '}';
     }
 
-    public Student(String name, String surname, String dateOfCreation) {
-        this.name = name;
-        this.surname = surname;
-        this.dateOfCreation = dateOfCreation;
-    }
-
-    public String getName() {
+    protected String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getSurname() {
+    protected String getSurname() {
         return surname;
     }
 
-    public void setSurname(String surname) {
-        this.surname = surname;
+    protected Gender getGender() {
+        return gender;
     }
 
-    public String getDateOfCreation() {
+    protected String getDateOfCreation() {
         return dateOfCreation;
     }
 
-    public void setDateOfCreation(String name) {
-        this.dateOfCreation = dateOfCreation;
+    static Builder newBuilder() {
+        return new Student().new Builder();
+    }
+
+    class Builder {
+        private Builder() {
+        }
+
+        Builder setName(String nameInput) {
+            Student.this.name = nameInput;
+            return this;
+        }
+
+        Builder setSurname(String surnameInput) {
+            Student.this.surname = surnameInput;
+            return this;
+        }
+
+        Builder setDateOfCreation() {
+            Student.this.dateOfCreation = String.valueOf(new Date());
+            return this;
+        }
+
+        Builder setGender(Gender genderInput) {
+            Student.this.gender = genderInput;
+            return this;
+        }
+
+        Student build() {
+            return Student.this;
+        }
     }
 }

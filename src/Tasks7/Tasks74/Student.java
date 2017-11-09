@@ -23,11 +23,9 @@ class Student {
         return name;
     }
 
-
     protected String getSurname() {
         return surname;
     }
-
 
     protected String getDateOfCreation() {
         return dateOfCreation;
@@ -52,10 +50,7 @@ class Student {
         }
 
         Builder setDateOfCreation() {
-
-            Date date = new Date();
-            String dateOfCreationInput = date.toString();
-            Student.this.dateOfCreation = dateOfCreationInput;
+            Student.this.dateOfCreation = String.valueOf(new Date());
             return this;
         }
 

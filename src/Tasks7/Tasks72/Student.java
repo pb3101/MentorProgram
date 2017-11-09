@@ -1,4 +1,5 @@
 package Tasks7.Tasks72;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
@@ -12,7 +13,6 @@ class Student {
     private String surname;
     private String dateOfCreation;
     Random random = new Random();
-    int randomStudent = random.nextInt(1) + 10;
 
     @Override
     public String toString() {
@@ -26,13 +26,9 @@ class Student {
     protected String getName() {
         return name;
     }
-
-
     protected String getSurname() {
         return surname;
     }
-
-
     protected String getDateOfCreation() {
         return dateOfCreation;
     }
@@ -42,10 +38,11 @@ class Student {
     }
 
     class Builder {
-        private  Builder() {
+        private Builder() {
         }
 
         Builder setName() {
+            int randomStudent = random.nextInt(10) + 20;
             Student.this.name = new StringBuilder().append("Student").append(randomStudent).toString();
             return this;
         }
@@ -56,12 +53,10 @@ class Student {
         }
 
         Builder setDateOfCreation() {
-
-            Date date = new Date();
-            String dateOfCreationInput = date.toString();
-            Student.this.dateOfCreation = dateOfCreationInput;
+            Student.this.dateOfCreation =  String.valueOf(new Date());
             return this;
         }
+
         Student build() {
             return Student.this;
         }

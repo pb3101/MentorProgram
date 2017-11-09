@@ -1,4 +1,4 @@
-package Tasks7.Tasks75;
+package Tasks7.Tasks73Enum;
 
 import java.util.Date;
 
