@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9fd0730-6fca-4463-b354-f116750b92f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks73Enum/FileWritter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks73Enum/Gender.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks73Enum/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks74Enum/Gender.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks74Enum/StudentEnum.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks71/Student.java" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks71/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks72/Main.java" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks72/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks72/Student.java" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks72/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks73/FileWritter.java" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks73/FileWritter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks73/Student.java" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks73/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks74/FileReader.java" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks74/FileReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks74/Student.java" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks74/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks74Enum/FileReader.java" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks74Enum/FileReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks74Enum/Student.java" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks74Enum/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks75/Main.java" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks75/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tasks7/Tasks75/Student.java" afterPath="$PROJECT_DIR$/src/Tasks7/Tasks75/Student.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -921,7 +905,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508782011966</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Update">
+      <created>1510237703168</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1510237703168</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1012,7 +1003,8 @@
     <MESSAGE value="Added Task 6.3 (example of Wrapper) and Task 631-633 (own implementation)&#10;Added packages to other Pattern exaplmes" />
     <MESSAGE value="Refactored structure" />
     <MESSAGE value="Tasks 7.1-7.5 added, External libraries Jackson added, generated student.json file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tasks 7.1-7.5 added, External libraries Jackson added, generated student.json file added" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
